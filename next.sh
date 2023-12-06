@@ -21,14 +21,10 @@ cp ./.dev/custom/.termux/termux.properties ~/.termux/
 
 cp ./.dev/custom/motd ~/../usr/etc/
 
-# EJECUTANDO POWERLEVEL10K
-
-source ~/.zsh-plugins/powerlevel10k/powerlevel10k.zsh-theme
-
 # EJECUTANDO NVIM (NEOVIM)
 
 nvim
 
 echo -e ${blue}"
-Welcome to Termux-De!
+Welcome to Termux-Dev!
 "${white}
