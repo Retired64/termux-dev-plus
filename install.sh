@@ -26,13 +26,21 @@ yes|pkg install mongodb
 
 git clone https://github.com/NvChad/NvChad ~/.config/nvim
 
+if [[ ! -d "~/.config/nvim/lua/custom" ]]; then
+  mkdir -p ~/.config/nvim/lua/custom
+fi
+
 # AGREGANDO PLUGINS DE NVCHAD
 
-cp ./.dev/nvim/lua/custom/plugins.lua ~/.config/nvim/lua/custom/
+cp ./.dev/nvim/lua/custom/plugins.lua ~/.config/nvim/lua/custom/plugins.lua
 
-cp ./.dev/nvim/lua/custom/chadrc.lua ~/.config/nvim/lua/custom/
+cp ./.dev/nvim/lua/custom/chadrc.lua ~/.config/nvim/lua/custom/chadrc.lua
 
-cp -r ./.dev/nvim/lua/custom/configs/ ~/.config/nvim/lua/custom/
+if [[ ! -d "~/.config/nvim/lua/custom/configs" ]]; then
+  mkdir -p ~/.config/nvim/lua/custom/configs
+fi
+
+cp ./.dev/nvim/lua/custom/configs/lspconfig.lua ~/.config/nvim/lua/custom/configs/lspconfig.lua
 
 # CREANDO DIRECTORIO DE PLUGINS
 

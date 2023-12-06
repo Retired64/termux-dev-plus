@@ -27,6 +27,7 @@ local plugins = {
         "typescript",
         "tsx",
         "json",
+        "bash",
         -- "vue", "svelte",
 
        -- low level
