@@ -17,6 +17,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh-plugins/zs
 cp ./.dev/custom/.termux/colors.properties ~/.termux/
 cp ./.dev/custom/.termux/termux.properties ~/.termux/
 
+# PERSONALIZANDO INICIO DE TERMUX
+
+cp ./.dev/custom/motd ~/../usr/etc/
+
+# EJECUTANDO POWERLEVEL10K
+
+source ~/.zsh-plugins/powerlevel10k/powerlevel10k.zsh-theme
+
 # EJECUTANDO NVIM (NEOVIM)
 
 nvim
