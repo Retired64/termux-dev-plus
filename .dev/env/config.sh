@@ -1,4 +1,8 @@
-# VARIABLES
+# PATH VARIABLES
+
+export dev="~/.termux-dev"
+
+# SYSTEM VARIABLES
 
 export system=$(uname -o)
 export arch=$(uname -m)

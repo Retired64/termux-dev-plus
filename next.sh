@@ -25,6 +25,7 @@ cp ./.dev/custom/motd ~/../usr/etc/
 
 nvim
 
+clear
 echo -e ${blue}"
 Welcome to Termux-Dev!
 "${white}

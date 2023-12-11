@@ -10,6 +10,20 @@ if [[ ! -d "~/.termux-dev" ]]; then
   mkdir -p ~/.termux-dev/
 fi
 
+# CREANDO DIRECTORIO DE VARIABLES
+
+if [[ ! -d "~/.termux-dev/env" ]]; then
+  mkdir -p ~/.termux-dev/env
+fi
+
+# COPIANDO ARCHIVO DE VARIABLES
+
+cp ./.dev/env/config.sh ~/.termux-dev/env/
+
+# DEFINIENDO VARIABLE DE INSTALACIÓN
+
+echo "export TermuxDev='${show}'" >> ~/.termux-dev/env/env.sh
+
 # ACTUALIZANDO REPOSITORIOS
 
 yes|pkg update && yes|pkg upgrade
