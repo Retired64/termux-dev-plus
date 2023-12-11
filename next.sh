@@ -21,6 +21,10 @@ cp ./.dev/custom/.termux/termux.properties ~/.termux/
 
 cp ./.dev/custom/motd ~/../usr/etc/
 
+# AGREGANDO EJECUTABLES A BINARIOS
+
+cp ./.dev/bin/* $PREFIX/bin/
+
 # EJECUTANDO NVIM (NEOVIM)
 
 nvim
