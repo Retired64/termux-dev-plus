@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source "~/.termux-dev/env/env.sh"
-source "~/.termux-dev/env/config.sh"
+source ~/.termux-dev/env/env.sh
+source ~/.termux-dev/env/config.sh
 
 argument=$1
 option=$2
@@ -11,7 +11,7 @@ if [[ "${argument}" == "help" ]]; then
 elif [[ "${argument}" == "update" ]]; then
   source "${TermuxDev}/.dev/scripts/update.sh"
 elif [[ "${argument}" == "config" ]]; then
-  if [[ "${option}" == "gitkey"]]; then
+  if [[ "${option}" == "gitkey" ]]; then
     source "${TermuxDev}/.dev/functions/config/gitkey.sh"
   elif [[ ${option} == "login" ]]; then
     source "${TermuxDev}/.dev/functions/config/login.sh"

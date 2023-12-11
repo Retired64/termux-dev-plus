@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source "~/.termux-dev/env/env.sh"
-source "~/.termux-dev/env/config.sh"
+source ~/.termux-dev/env/env.sh
+source ~/.termux-dev/env/config.sh
 
 if [[ -f "~/.termux-dev/github/.token.txt" ]]; then
   echo -e ${red}"Token already configured!"${white}

@@ -2,7 +2,7 @@
 
 # IMPORTANDO VARIABLES
 
-source "./.dev/env/config.sh"
+source ./.dev/env/config.sh
 
 # CREANDO DIRECTORIO DE INSTALACIÓN
 

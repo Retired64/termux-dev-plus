@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source "~/.termux-dev/env/env.sh"
-source "~/.termux-dev/env/config.sh"
+source ~/.termux-dev/env/env.sh
+source ~/.termux-dev/env/config.sh
 
 echo -e "Welcome to Termux-De!
 
