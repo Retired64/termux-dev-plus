@@ -6,17 +6,29 @@ source ~/.termux-dev/env/config.sh
 argument=$1
 option=$2
 
+function option() {
+  echo -e ${red}"Invalid option!"${white}
+}
+
 if [[ "${argument}" == "help" ]]; then
-  source "${TermuxDev}/.dev/scripts/help.sh"
+  source ${TermuxDev}/.dev/scripts/help.sh
 elif [[ "${argument}" == "update" ]]; then
-  source "${TermuxDev}/.dev/scripts/update.sh"
+  source ${TermuxDev}/.dev/scripts/update.sh
 elif [[ "${argument}" == "config" ]]; then
   if [[ "${option}" == "gitkey" ]]; then
-    source "${TermuxDev}/.dev/functions/config/gitkey.sh"
+    source ${TermuxDev}/.dev/functions/config/gitkey.sh
   elif [[ ${option} == "login" ]]; then
-    source "${TermuxDev}/.dev/functions/config/login.sh"
+    source ${TermuxDev}/.dev/functions/config/login.sh
   else
-    echo -e ${red}"Invalid option!"${white}
+    option
+  fi
+elif [[ "${argument}" == "create" ]]; then
+  if [[ "${option}" == "vite" ]]; then
+    source ${TermuxDev}/.dev/functions/create/vite.sh
+  elif [[ "${option}" == "react" ]]; then
+    source ${TermuxDev}/.dev/functions/create/react.sh
+  else
+    option
   fi
 else
   echo -e ${red}"Invalid argument!"${white}
