@@ -30,6 +30,16 @@ elif [[ "${argument}" == "create" ]]; then
   else
     option
   fi
+elif [[ "${argument}" == "server" ]]; then
+  if [[ "${option}" == "node" ]]; then
+    source ${TermuxDev}/.dev/functions/server/node.sh
+  elif [[ "${option}" == "php" ]]; then
+    source ${TermuxDev}/.dev/functions/server/php.sh
+  elif [[ "${option}" == "python" ]]; then
+    source ${TermuxDev}/.dev/functions/server/python.sh
+  else
+    option
+  fi
 else
   echo -e ${red}"Invalid argument!"${white}
 fi
