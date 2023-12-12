@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat ~/.termux-dev/github/.token
+cat ~/.termux-dev/github/.token.txt
