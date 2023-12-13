@@ -3,37 +3,30 @@
 source ~/.termux-dev/env/env.sh
 source ~/.termux-dev/env/config.sh
 
-echo -e "Welcome to Termux-De!
+echo -e "${cyan}
+Welcome ${black}to ${white}Termux-De!${white}
 
-Use the <dev> command to run specific Termux-Dev functions, example:
+dev ${cyan}<${black}argument${cyan}> <${black}option${cyan}>
 
-dev help - Show help menu
-dev update - Update termux-dev repositories
+${black}┌┅{ ${cyan}config ${black}}
+┃
+└┅➤[ ${white}gitkey ${black}] ${cyan}┅➤( ${black}set github token ${cyan})${black}
+└┅➤[ ${white}login ${black}] ${cyan}┅➤( ${black}set termux login ${cyan})${black}
 
-dev <argument> <option>
+┌┅{ ${cyan}create ${black}}
+┃
+└┅➤[ ${white}vite ${black}] ${cyan}┅➤( ${black}create vite project ${cyan})${black}
+└┅➤[ ${white}react ${black}] ${cyan}┅➤( ${black}create react-app project ${cyan})${black}
 
-    ╔━━━━━━━━╗
-╔━━━┃ config ┃ ━➤ (argument)
-┃   ╚━━━━━━━━╝
-╚━━➤ [ gitkey ] ━➤ (option)
-╚━━➤ [ login ] ━➤ (option)
-
-    ╔━━━━━━╗
-╔━━━┃ show ┃ ━➤ (argument)
-┃   ╚━━━━━━╝
-╚━━➤ [ gitkey ] ━➤ (option)
-╚━━➤ [ login ] ━➤ (option)
-
-    ╔━━━━━━━━╗
-╔━━━┃ create ┃ ━➤ (argument)
-┃   ╚━━━━━━━━╝
-╚━━➤ [ vite ] ━➤ (option)
-╚━━➤ [ react ] ━➤ (option)
-
-    ╔━━━━━━━━╗
-╔━━━┃ server ┃ ━➤ (argument)
-┃   ╚━━━━━━━━╝
-╚━━➤ [ node ] ━➤ (option)
-╚━━➤ [ php ] ━➤ (option)
-╚━━➤ [ python ] ━➤ (option)
-"
+┌┅{ ${cyan}server ${black}}
+┃
+└┅➤[ ${white}node ${black}] ${cyan}┅➤( ${black}start live-server ${cyan})${black}
+└┅➤[ ${white}php ${black}] ${cyan}┅➤( ${black}start php server ${cyan})${black}
+└┅➤[ ${white}python ${black}] ${cyan}┅➤( ${black}start python server ${cyan})${black}
+${cyan}
+Commands:
+${white}
+dev ${cyan}┅➤[ ${black}main command to manage termux-dev ${cyan}]${white}
+termux-dev-update ${cyan}┅➤[ ${black}update termux-dev repo ${cyan}]${white}
+gitkey ${cyan}┅➤[ ${black}show git token ${cyan}]
+"${white}

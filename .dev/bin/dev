@@ -10,9 +10,7 @@ function option() {
   echo -e ${red}"Invalid option!"${white}
 }
 
-if [[ "${argument}" == "help" ]]; then
-  source ${TermuxDev}/.dev/scripts/help.sh
-elif [[ "${argument}" == "update" ]]; then
+if [[ "${argument}" == "update" ]]; then
   source ${TermuxDev}/.dev/scripts/update.sh
 elif [[ "${argument}" == "config" ]]; then
   if [[ "${option}" == "gitkey" ]]; then
@@ -41,5 +39,5 @@ elif [[ "${argument}" == "server" ]]; then
     option
   fi
 else
-  echo -e ${red}"Invalid argument!"${white}
+  source ${TermuxDev}/.dev/scripts/help.sh
 fi
