@@ -4,7 +4,7 @@ source ~/.termux-dev/env/env.sh
 source ~/.termux-dev/env/config.sh
 
 echo -e "${cyan}
-Welcome ${black}to ${white}Termux-De!${white}
+</> ${white}Welcome to ${cyan} ${white}Termux-De ${cyan}</>${white}
 
 dev ${cyan}<${black}argument${cyan}> <${black}option${cyan}>
 
