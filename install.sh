@@ -36,6 +36,14 @@ yes|pkg install git gh zsh neovim nodejs python php curl wget lua-language-serve
 
 yes|pkg install mongodb
 
+# INSTALANDO MÓDULOS DE NPM
+
+npm install -g live-server localtunnel
+
+# SOLUCIONANDO ERROR DE (lt) OPENURL.JS
+
+cp ./.dev/fix/openurl.js /data/data/com.termux/files/usr/lib/node_modules/localtunnel/node_modules/openurl/openurl.js
+
 # DESCARGANDO NVCHAD
 
 git clone https://github.com/NvChad/NvChad ~/.config/nvim
