@@ -30,7 +30,7 @@ yes|pkg update && yes|pkg upgrade
 
 # INSTALANDO PAQUETES
 
-yes|pkg install git zsh neovim nodejs python php curl wget lua-language-server lsd bat tur-repo proot ncurses-utils ripgrep libtreesitter
+yes|pkg install git gh zsh neovim nodejs python php curl wget lua-language-server lsd bat tur-repo proot ncurses-utils ripgrep libtreesitter
 
 # INSTALANDO PAQUETES DE TERMUX USERS REPO (tur)
 
