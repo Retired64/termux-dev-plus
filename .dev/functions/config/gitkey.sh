@@ -12,7 +12,7 @@ if [[ ! -d ~/.termux-dev/github ]]; then
   mkdir -p ~/.termux-dev/github
 fi
 
-echo -e -n "${green}
+echo -e -n "${cyan}
 ENTER TOKEN GITHUB: "${white}
 read -r token
 
