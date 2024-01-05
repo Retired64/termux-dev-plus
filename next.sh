@@ -12,6 +12,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh-plugins/
 
 git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh-plugins/zsh-autosuggestions && echo 'source ~/.zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
 
+# AGREGANDO ALIAS A ZSH
+
+echo 'alias ls="lsd"' >> ~/.zshrc
+
 # PERSONALIZANDO CURSOR
 
 cp ./.dev/custom/.termux/colors.properties ~/.termux/
