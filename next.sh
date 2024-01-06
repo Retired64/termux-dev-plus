@@ -4,17 +4,21 @@
 
 source ./.dev/env/config.sh
 
+# VERIFICANDO INSTALACIÓN DE ZSH
+
+if [[ -d "~/.zsh-plugins/" ]]; then
 # INSTALANDO ZSH POWERLEVEL10K
 
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh-plugins/powerlevel10k && echo 'source ~/.zsh-plugins/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
+  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh-plugins/powerlevel10k && echo 'source ~/.zsh-plugins/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 
 # INSTALANDO ZSH AUTO-SUGGESTIONS
 
-git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh-plugins/zsh-autosuggestions && echo 'source ~/.zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
+  git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.zsh-plugins/zsh-autosuggestions && echo 'source ~/.zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
 
 # AGREGANDO ALIAS A ZSH
 
-echo 'alias ls="lsd"' >> ~/.zshrc
+  echo 'alias ls="lsd"' >> ~/.zshrc
+fi
 
 # PERSONALIZANDO CURSOR
 
@@ -34,6 +38,8 @@ cp ./.dev/bin/* $PREFIX/bin/
 nvim
 
 clear
-echo -e ${blue}"
+echo -e ${cyan}"
 Welcome to Termux-Dev!
-"${white}
+${white}
+Please restart your Termux App!
+"

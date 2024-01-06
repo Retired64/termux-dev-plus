@@ -64,15 +64,26 @@ fi
 
 cp ./.dev/nvim/lua/custom/configs/lspconfig.lua ~/.config/nvim/lua/custom/configs/lspconfig.lua
 
-# CREANDO DIRECTORIO DE PLUGINS
-
-if [[ ! -d "~/.zsh-plugins/" ]]; then
-  mkdir -p ~/.zsh-plugins/
-fi
 
 # INSTALANDO OH-MY-ZSH
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+echo -e -n "${cyan}
+Do you want to use the oh-my-zsh shell? [Y/n] >> "${white}
+read -r setShell
+
+if [[ "${setShell}" == "y" || "${setShell}" == "yes" || "${setShell}" == "Y" || "${setShell}" == "YES" ]]; then
+# CREANDO DIRECTORIO DE PLUGINS
+
+  if [[ ! -d "~/.zsh-plugins/" ]]; then
+    mkdir -p ~/.zsh-plugins/
+  fi
+
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  clear
+  echo -e "${cyan}Please execute >> ${white}bash next.sh"
+else
+  bash next.sh
+fi
 
 # CONTINUA LA INSTALACIÓN EN EL ARCHIVO:
 # next.sh
