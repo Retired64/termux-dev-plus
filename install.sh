@@ -4,6 +4,11 @@
 
 source ./.dev/env/config.sh
 
+# MOSTRANDO MENSAJE DE INSTALACIÓN 
+
+clear
+echo -e "${cyan}Installing Termux-Dev...${white}"
+
 # CREANDO DIRECTORIO DE INSTALACIÓN
 
 if [[ ! -d "~/.termux-dev" ]]; then
