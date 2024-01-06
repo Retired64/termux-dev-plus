@@ -6,7 +6,7 @@ source ./.dev/env/config.sh
 
 # VERIFICANDO INSTALACIÓN DE ZSH
 
-if [[ -d "~/.zsh-plugins/" ]]; then
+if [[ -d ~/.zsh-plugins ]]; then
 # INSTALANDO ZSH POWERLEVEL10K
 
   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh-plugins/powerlevel10k && echo 'source ~/.zsh-plugins/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc

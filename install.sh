@@ -78,9 +78,10 @@ if [[ "${setShell}" == "y" || "${setShell}" == "yes" || "${setShell}" == "Y" || 
     mkdir -p ~/.zsh-plugins/
   fi
 
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   clear
   echo -e "${cyan}Please execute >> ${white}bash next.sh"
+
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 else
   bash next.sh
 fi
