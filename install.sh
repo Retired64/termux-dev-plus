@@ -45,25 +45,11 @@ npm install -g live-server localtunnel prettier
 cp ./.dev/fix/openurl.js /data/data/com.termux/files/usr/lib/node_modules/localtunnel/node_modules/openurl/openurl.js
 
 # DESCARGANDO NVCHAD
+#
+rm -rf ~/.config/nvim
+rm -rf ~/.local/share/nvim
 
-git clone https://github.com/NvChad/NvChad ~/.config/nvim
-
-if [[ ! -d "~/.config/nvim/lua/custom" ]]; then
-  mkdir -p ~/.config/nvim/lua/custom
-fi
-
-# AGREGANDO PLUGINS DE NVCHAD
-
-cp ./.dev/nvim/lua/custom/plugins.lua ~/.config/nvim/lua/custom/plugins.lua
-
-cp ./.dev/nvim/lua/custom/chadrc.lua ~/.config/nvim/lua/custom/chadrc.lua
-
-if [[ ! -d "~/.config/nvim/lua/custom/configs" ]]; then
-  mkdir -p ~/.config/nvim/lua/custom/configs
-fi
-
-cp ./.dev/nvim/lua/custom/configs/lspconfig.lua ~/.config/nvim/lua/custom/configs/lspconfig.lua
-
+git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 
 # INSTALANDO OH-MY-ZSH
 
