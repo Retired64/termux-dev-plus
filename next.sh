@@ -29,7 +29,12 @@ cp ./.dev/custom/.termux/termux.properties ~/.termux/
 
 # PERSONALIZANDO INICIO DE TERMUX
 
-cp -r ./.dev/custom ~/.termux-dev 
+cp -r ./.dev/custom ~/.termux-dev
+rm ~/../usr/etc/motd > /dev/null 2>&1
+rm ~/../usr/etc/motd.sh > /dev/null 2>&1
+rm ~/../usr/etc/motd.dpkg-old > /dev/null 2>&1
+rm ~/../usr/etc/motd-playstore > /dev/null 2>&1
+rm ~/../usr/etc/motd-playstore.dpkg-old > /dev/null 2>&1
 
 # AGREGANDO EJECUTABLES A BINARIOS
 
