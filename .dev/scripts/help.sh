@@ -3,30 +3,30 @@
 source ~/.termux-dev/env/env.sh
 source ~/.termux-dev/env/config.sh
 
-echo -e "${cyan}
-</> ${white}Welcome to ${cyan} ${white}Termux-De ${cyan}</>${white}
+echo -e "${red}
+</> ${white}Welcome to ${red} ${white}Termux-De ${red}</>${white}
 
-dev ${cyan}<${black}argument${cyan}> <${black}option${cyan}>
+dev ${red}<${black}argument${red}> <${black}option${red}>
 
-${black}┌┅{ ${cyan}config ${black}}
+${black}┌┅{ ${red}config ${black}}
 ┃
-└┅➤[ ${white}gitkey ${black}] ${cyan}┅➤( ${black}set github token ${cyan})${black}
-└┅➤[ ${white}login ${black}] ${cyan}┅➤( ${black}set termux login ${cyan})${black}
+└┅➤[ ${white}gitkey ${black}] ${red}┅➤( ${black}set github token ${red})${black}
+└┅➤[ ${white}login ${black}] ${red}┅➤( ${black}set termux login ${red})${black}
 
-┌┅{ ${cyan}create ${black}}
+┌┅{ ${red}create ${black}}
 ┃
-└┅➤[ ${white}vite ${black}] ${cyan}┅➤( ${black}create vite project ${cyan})${black}
-└┅➤[ ${white}react ${black}] ${cyan}┅➤( ${black}create react-app project ${cyan})${black}
+└┅➤[ ${white}vite ${black}] ${red}┅➤( ${black}create vite project ${red})${black}
+└┅➤[ ${white}react ${black}] ${red}┅➤( ${black}create react-app project ${red})${black}
 
-┌┅{ ${cyan}server ${black}}
+┌┅{ ${red}server ${black}}
 ┃
-└┅➤[ ${white}node ${black}] ${cyan}┅➤( ${black}start live-server ${cyan})${black}
-└┅➤[ ${white}php ${black}] ${cyan}┅➤( ${black}start php server ${cyan})${black}
-└┅➤[ ${white}python ${black}] ${cyan}┅➤( ${black}start python server ${cyan})${black}
-${cyan}
+└┅➤[ ${white}node ${black}] ${red}┅➤( ${black}start live-server ${red})${black}
+└┅➤[ ${white}php ${black}] ${red}┅➤( ${black}start php server ${red})${black}
+└┅➤[ ${white}python ${black}] ${red}┅➤( ${black}start python server ${red})${black}
+${red}
 Commands:
 ${white}
-dev ${cyan}┅➤[ ${black}main command to manage termux-dev ${cyan}]${white}
-termux-dev-update ${cyan}┅➤[ ${black}update termux-dev repo ${cyan}]${white}
-gitkey ${cyan}┅➤[ ${black}show git token ${cyan}]
+dev ${red}┅➤[ ${black}main command to manage termux-dev ${red}]${white}
+termux-dev-update ${red}┅➤[ ${black}update termux-dev repo ${red}]${white}
+gitkey ${red}┅➤[ ${black}show git token ${red}]
 "${white}
