@@ -10,7 +10,7 @@ dev ${red}<${black}argument${red}> <${black}option${red}>
 
 ${black}┌┅{ ${red}config ${black}}
 ┃
-└┅➤[ ${white}gitkey ${black}] ${red}┅➤( ${black}set github token ${red})${black}
+└┅➤[ ${white}token ${black}] ${red}┅➤( ${black}set new token ${red})${black}
 └┅➤[ ${white}login ${black}] ${red}┅➤( ${black}set termux login ${red})${black}
 
 ┌┅{ ${red}create ${black}}
@@ -28,5 +28,4 @@ Commands:
 ${white}
 dev ${red}┅➤[ ${black}main command to manage termux-dev ${red}]${white}
 termux-dev-update ${red}┅➤[ ${black}update termux-dev repo ${red}]${white}
-gitkey ${red}┅➤[ ${black}show git token ${red}]
 "${white}

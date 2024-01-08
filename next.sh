@@ -45,8 +45,8 @@ cp ./.dev/bin/* $PREFIX/bin/
 nvim
 
 clear
-echo -e ${cyan}"
-Welcome to Termux-Dev!
+echo -e "${red}
+    ${bred} ${white} Welcome to Termux-Dev!  ${bblack}${red}
 ${white}
-Please restart your Termux App!
-"
+${bwhite} ${black} Please restart your Termux app!  ${bblack}${white}
+"${white}

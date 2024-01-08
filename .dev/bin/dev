@@ -13,8 +13,8 @@ function option() {
 if [[ "${argument}" == "update" ]]; then
   source ${TermuxDev}/.dev/scripts/update.sh
 elif [[ "${argument}" == "config" ]]; then
-  if [[ "${option}" == "gitkey" ]]; then
-    source ${TermuxDev}/.dev/functions/config/gitkey.sh
+  if [[ "${option}" == "token" ]]; then
+    source ${TermuxDev}/.dev/functions/config/token.sh
   elif [[ ${option} == "login" ]]; then
     source ${TermuxDev}/.dev/functions/config/login.sh
   else
@@ -35,6 +35,12 @@ elif [[ "${argument}" == "server" ]]; then
     source ${TermuxDev}/.dev/functions/server/php.sh
   elif [[ "${option}" == "python" ]]; then
     source ${TermuxDev}/.dev/functions/server/python.sh
+  else
+    option
+  fi
+elif [[ "${argument}" == "show" ]]; then
+  if [[ "${option}" == "tokens" ]]; then
+    source ${TermuxDev}/.dev/functions/show/tokens.sh
   else
     option
   fi

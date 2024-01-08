@@ -7,7 +7,9 @@ source ./.dev/env/config.sh
 # MOSTRANDO MENSAJE DE INSTALACIÓN 
 
 clear
-echo -e "${cyan}Installing Termux-Dev...${white}"
+echo -e "${red}
+${bred} ${white} Installing Termux-Dev...  ${bblack}${red}
+"${white}
 
 # CREANDO DIRECTORIO DE INSTALACIÓN
 
