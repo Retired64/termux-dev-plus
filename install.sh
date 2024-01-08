@@ -62,7 +62,7 @@ echo -e -n "${cyan}
 Do you want to use the oh-my-zsh shell? [Y/n] >> "${white}
 read -r setShell
 
-if [[ "${setShell}" == "y" || "${setShell}" == "yes" || "${setShell}" == "Y" || "${setShell}" == "YES" ]]; then
+if [[ "${setShell}" == "y" || "${setShell}" == "yes" || "${setShell}" == "Y" || "${setShell}" == "YES" || "${setShell}" == "Yes" ]]; then
 # CREANDO DIRECTORIO DE PLUGINS
 
   if [[ ! -d "~/.zsh-plugins/" ]]; then

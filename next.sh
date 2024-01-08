@@ -18,6 +18,8 @@ if [[ -d ~/.zsh-plugins ]]; then
 # AGREGANDO ALIAS A ZSH
 
   echo 'alias ls="lsd"' >> ~/.zshrc
+  echo "source ~/.termux-dev/custom/banner.sh" >> ~/.zshrc
+
 fi
 
 # PERSONALIZANDO CURSOR
@@ -27,7 +29,7 @@ cp ./.dev/custom/.termux/termux.properties ~/.termux/
 
 # PERSONALIZANDO INICIO DE TERMUX
 
-cp ./.dev/custom/motd ~/../usr/etc/
+cp -r ./.dev/custom ~/.termux-dev 
 
 # AGREGANDO EJECUTABLES A BINARIOS
 
