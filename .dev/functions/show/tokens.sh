@@ -14,7 +14,7 @@ num=$(cat ~/.termux-dev/tokens/.list/names.txt | wc -l)
 for ((i = 1; i <= ${num}; i++)); do
   name=$(awk "NR ==${i}" ~/.termux-dev/tokens/.list/names.txt)
   echo -e "${black}
-${bwhite} ${i} ${name} "${bblack}
+${bwhite} ${red}${i}${black} ${red}${name} ${bblack}${black}"
 done
 
 echo -e -n "${white}
