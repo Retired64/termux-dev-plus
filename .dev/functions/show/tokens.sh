@@ -21,8 +21,12 @@ echo -e -n "${white}
 ${bred} ENTER NUMBER TOKEN ${bblack}${red} "${black}
 read -r numberToken
 
-nameToken=$(awk "NR ==${numberToken}" ~/.termux-dev/tokens/.list/names.txt)
-
-echo -e ""
-cat ~/.termux-dev/tokens/${nameToken}
+if [[ "${numberToken}" -le "${num}" ]]; then
+  nameToken=$(awk "NR ==${numberToken}" ~/.termux-dev/tokens/.list/names.txt)
+  echo -e ""
+  cat ~/.termux-dev/tokens/${nameToken}
+else
+  echo -e "
+${red}TOKEN NOT FOUND!"
+fi 
 rm ~/.termux-dev/tokens/.list/names.txt

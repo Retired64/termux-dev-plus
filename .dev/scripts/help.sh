@@ -23,6 +23,12 @@ ${black}┌┅{ ${red}config ${black}}
 └┅➤[ ${white}node ${black}] ${red}┅➤( ${black}start live-server ${red})${black}
 └┅➤[ ${white}php ${black}] ${red}┅➤( ${black}start php server ${red})${black}
 └┅➤[ ${white}python ${black}] ${red}┅➤( ${black}start python server ${red})${black}
+
+┌┅{ ${red}show ${black}}
+┃
+└┅➤[ ${white}tokens ${black}] ${red}┅➤( ${black}show saved tokens ${red})${black}
+└┅➤[ ${white}notes ${black}] ${red}┅➤( ${black}show saved notes ${red})${black}
+
 ${red}
 Commands:
 ${white}
