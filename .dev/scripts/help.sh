@@ -3,20 +3,18 @@
 source ~/.termux-dev/env/env.sh
 source ~/.termux-dev/env/config.sh
 
-echo -e "${red}
-</> ${white}Welcome to ${red} ${white}Termux-De ${red}</>${white}
-
+echo -e "${white}
 dev ${red}<${black}argument${red}> <${black}option${red}>
 
 ${black}┌┅{ ${red}config ${black}}
 ┃
-└┅➤[ ${white}token ${black}] ${red}┅➤( ${black}set new token ${red})${black}
-└┅➤[ ${white}login ${black}] ${red}┅➤( ${black}set termux login ${red})${black}
+└┅➤[ ${white}login ${black}] ${red}┅➤( ${black}set new token ${red})${black}
+└┅➤[ ${white}banner ${black}] ${red}┅➤( ${black}set termux login ${red})${black}
 
-┌┅{ ${red}create ${black}}
+┌┅{ ${red}new ${black}}
 ┃
-└┅➤[ ${white}vite ${black}] ${red}┅➤( ${black}create vite project ${red})${black}
-└┅➤[ ${white}react ${black}] ${red}┅➤( ${black}create react-app project ${red})${black}
+└┅➤[ ${white}token ${black}] ${red}┅➤( ${black}create vite project ${red})${black}
+└┅➤[ ${white}note ${black}] ${red}┅➤( ${black}create react-app project ${red})${black}
 
 ┌┅{ ${red}server ${black}}
 ┃
@@ -28,10 +26,4 @@ ${black}┌┅{ ${red}config ${black}}
 ┃
 └┅➤[ ${white}tokens ${black}] ${red}┅➤( ${black}show saved tokens ${red})${black}
 └┅➤[ ${white}notes ${black}] ${red}┅➤( ${black}show saved notes ${red})${black}
-
-${red}
-Commands:
-${white}
-dev ${red}┅➤[ ${black}main command to manage termux-dev ${red}]${white}
-termux-dev-update ${red}┅➤[ ${black}update termux-dev repo ${red}]${white}
-"${white}
+└┅➤[ ${white}commands ${black}] ${red}┅➤( ${black}show      saved notes ${red})${black}"

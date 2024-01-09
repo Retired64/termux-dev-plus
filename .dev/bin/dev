@@ -13,18 +13,18 @@ function option() {
 if [[ "${argument}" == "update" ]]; then
   source ${TermuxDev}/.dev/scripts/update.sh
 elif [[ "${argument}" == "config" ]]; then
-  if [[ "${option}" == "token" ]]; then
-    source ${TermuxDev}/.dev/functions/config/token.sh
-  elif [[ ${option} == "login" ]]; then
+  if [[ "${option}" == "login" ]]; then
     source ${TermuxDev}/.dev/functions/config/login.sh
+  elif [[ ${option} == "banner" ]]; then
+    source ${TermuxDev}/.dev/functions/config/banner.sh
   else
     option
   fi
-elif [[ "${argument}" == "create" ]]; then
-  if [[ "${option}" == "vite" ]]; then
-    source ${TermuxDev}/.dev/functions/create/vite.sh
-  elif [[ "${option}" == "react" ]]; then
-    source ${TermuxDev}/.dev/functions/create/react.sh
+elif [[ "${argument}" == "new" ]]; then
+  if [[ "${option}" == "token" ]]; then
+    source ${TermuxDev}/.dev/functions/new/token.sh
+  elif [[ "${option}" == "note" ]]; then
+    source ${TermuxDev}/.dev/functions/new/note.sh
   else
     option
   fi
@@ -41,6 +41,10 @@ elif [[ "${argument}" == "server" ]]; then
 elif [[ "${argument}" == "show" ]]; then
   if [[ "${option}" == "tokens" ]]; then
     source ${TermuxDev}/.dev/functions/show/tokens.sh
+  elif [[ "${option}" == "notes" ]]; then
+    source ${TermuxDev}/.dev/functions/show/notes.sh
+  elif [[ "${option}" == "commands" ]]; then
+    source ${TermuxDev}/.dev/functions/show/commands.sh
   else
     option
   fi
