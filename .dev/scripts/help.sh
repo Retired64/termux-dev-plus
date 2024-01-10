@@ -15,7 +15,7 @@ ${black}┌┅{ ${red}config ${black}}
 ┃
 └┅➤[ ${white}token ${black}] ${red}┅➤( ${black}save new token ${red})${black}
 └┅➤[ ${white}note ${black}] ${red}┅➤( ${black}save new note ${red})${black}
-└┅➤[ ${white}note ${black}] ${red}┅➤( ${black}create new project ${red})${black}
+└┅➤[ ${white}project ${black}] ${red}┅➤( ${black}create new project ${red})${black}
 
 ┌┅{ ${red}server ${black}}
 ┃

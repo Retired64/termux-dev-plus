@@ -25,6 +25,8 @@ elif [[ "${argument}" == "new" ]]; then
     source ${TermuxDev}/.dev/functions/new/token.sh
   elif [[ "${option}" == "note" ]]; then
     source ${TermuxDev}/.dev/functions/new/note.sh
+  elif [[ "${option}" == "project" ]]; then
+    source ${TermuxDev}/.dev/functions/new/project.sh
   else
     option
   fi
