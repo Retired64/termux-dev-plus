@@ -26,4 +26,4 @@ ${black}┌┅{ ${red}config ${black}}
 ┃
 └┅➤[ ${white}tokens ${black}] ${red}┅➤( ${black}show saved tokens ${red})${black}
 └┅➤[ ${white}notes ${black}] ${red}┅➤( ${black}show saved notes ${red})${black}
-└┅➤[ ${white}commands ${black}] ${red}┅➤( ${black}show      saved notes ${red})${black}"
+└┅➤[ ${white}commands ${black}] ${red}┅➤( ${black}show all commands ${red})${black}"
