@@ -14,8 +14,8 @@ name=$(echo "${value}" | tr " " "-")
 
 echo -e "${red}
 ${bred} ${white}WRITE YOUR NOTE ${bblack}${red}
-
-Press 2 times [Ctrl] + [D] to save.
+${white}
+Press [Ctrl] + [D] to save.
 "${black}
 
 cat > ~/.termux-dev/notes/${name}

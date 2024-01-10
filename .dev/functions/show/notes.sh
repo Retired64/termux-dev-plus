@@ -23,7 +23,7 @@ read -r numberNote
 
 if [[ "${numberNote}" -le "${num}" ]]; then
   nameNote=$(awk "NR ==${numberNote}" ~/.termux-dev/notes/.list/names.txt)
-  echo -e ""
+  echo -e "${white}"
   cat ~/.termux-dev/notes/${nameNote}
 else
   echo -e "
