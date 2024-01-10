@@ -8,13 +8,14 @@ dev ${red}<${black}argument${red}> <${black}option${red}>
 
 ${black}┌┅{ ${red}config ${black}}
 ┃
-└┅➤[ ${white}login ${black}] ${red}┅➤( ${black}set new token ${red})${black}
-└┅➤[ ${white}banner ${black}] ${red}┅➤( ${black}set termux login ${red})${black}
+└┅➤[ ${white}login ${black}] ${red}┅➤( ${black}set termux login ${red})${black}
+└┅➤[ ${white}banner ${black}] ${red}┅➤( ${black}set termux banner ${red})${black}
 
 ┌┅{ ${red}new ${black}}
 ┃
-└┅➤[ ${white}token ${black}] ${red}┅➤( ${black}create vite project ${red})${black}
-└┅➤[ ${white}note ${black}] ${red}┅➤( ${black}create react-app project ${red})${black}
+└┅➤[ ${white}token ${black}] ${red}┅➤( ${black}save new token ${red})${black}
+└┅➤[ ${white}note ${black}] ${red}┅➤( ${black}save new note ${red})${black}
+└┅➤[ ${white}note ${black}] ${red}┅➤( ${black}create new project ${red})${black}
 
 ┌┅{ ${red}server ${black}}
 ┃
