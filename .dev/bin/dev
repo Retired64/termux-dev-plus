@@ -13,10 +13,12 @@ function option() {
 if [[ "${argument}" == "update" ]]; then
   source ${TermuxDev}/.dev/scripts/update.sh
 elif [[ "${argument}" == "config" ]]; then
-  if [[ "${option}" == "login" ]]; then
-    source ${TermuxDev}/.dev/functions/config/login.sh
+  if [[ "${option}" == "theme" ]]; then
+    source ${TermuxDev}/.dev/functions/config/theme.sh
   elif [[ ${option} == "banner" ]]; then
     source ${TermuxDev}/.dev/functions/config/banner.sh
+  elif [[ ${option} == "port" ]]; then
+    source ${TermuxDev}/.dev/functions/config/port.sh
   else
     option
   fi
@@ -47,6 +49,16 @@ elif [[ "${argument}" == "show" ]]; then
     source ${TermuxDev}/.dev/functions/show/notes.sh
   elif [[ "${option}" == "commands" ]]; then
     source ${TermuxDev}/.dev/functions/show/commands.sh
+  else
+    option
+  fi
+elif [[ "${argument}" == "forward" ]]; then
+  if [[ "${option}" == "ngrok" ]]; then
+    source ${TermuxDev}/.dev/functions/forward/ngrok.sh
+  elif [[ "${option}" == "cloudflared" ]]; then
+    source ${TermuxDev}/.dev/functions/forward/cloudflared.sh
+  elif [[ "${option}" == "localtunnel" ]]; then
+    source ${TermuxDev}/.dev/functions/forward/localtunnel.sh
   else
     option
   fi
