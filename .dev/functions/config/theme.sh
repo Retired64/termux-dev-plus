@@ -5,8 +5,11 @@ source ~/.termux-dev/env/config.sh
 
 echo -e -n "${red}
 ${bwhite} ${black}1${red} ${black}RED ${bblack}${red}
+
 ${bwhite} ${black}2${red} ${black}BLUE ${bblack}${red}
+
 ${bwhite} ${black}3${red} ${black}GREEN ${bblack}${red}
+
 ${bwhite} ${black}4${red} ${black}CYAN ${bblack}${red}
 ${white}
 ${bred} NUMBER ${bblack}${red} "${black}
