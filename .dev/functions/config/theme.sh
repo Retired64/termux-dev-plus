@@ -4,11 +4,10 @@ source ~/.termux-dev/env/env.sh
 source ~/.termux-dev/env/config.sh
 
 echo -e -n "${red}
-
-${bred} ${black}1${red} ${black}RED ${bblack}${red}
-${bred} ${black}2${red} ${black}BLUE ${bblack}${red}
-${bred} ${black}3${red} ${black}GREEN ${bblack}${red}
-${bred} ${black}4${red} ${black}CYAN ${bblack}${red}
+${bwhite} ${black}1${red} ${black}RED ${bblack}${red}
+${bwhite} ${black}2${red} ${black}BLUE ${bblack}${red}
+${bwhite} ${black}3${red} ${black}GREEN ${bblack}${red}
+${bwhite} ${black}4${red} ${black}CYAN ${bblack}${red}
 ${white}
 ${bred} NUMBER ${bblack}${red} "${black}
 read -r option
