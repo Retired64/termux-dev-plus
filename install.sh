@@ -37,7 +37,7 @@ yes|pkg update && yes|pkg upgrade
 
 # INSTALANDO PAQUETES
 
-yes|pkg install git gh zsh neovim nodejs python php curl wget lua-language-server lsd bat tur-repo proot ncurses-utils ripgrep libtreesitter stylua
+yes|pkg install git gh zsh neovim nodejs python php curl wget lua-language-server lsd bat tur-repo proot ncurses-utils ripgrep libtreesitter stylua tmate cloudflared
 
 # INSTALANDO PAQUETES DE TERMUX USERS REPO (tur)
 
@@ -50,6 +50,31 @@ npm install -g live-server localtunnel prettier
 # SOLUCIONANDO ERROR DE (lt) OPENURL.JS
 
 cp ./.dev/fix/openurl.js /data/data/com.termux/files/usr/lib/node_modules/localtunnel/node_modules/openurl/openurl.js
+
+# DESCARGANDO NGROK 
+
+if [[ "${arch}" == "aarch64" ]]; then
+  arch="arm64"
+elif [[ "${arch}" == "arm64" ]]; then
+  arch="arm64"
+elif [[ "${arch}" == "armv8" ]]; then
+  arch="arm64"
+elif [[ "${arch}" == "armv6" ]]; then
+  arch="arm"
+elif [[ "${arch}" == "arm" ]]; then
+  arch="arm"
+else
+  arch="null"
+  echo -e "Unsupported device architecture!"
+fi
+
+if [[ "${arch}" == "null" ]]; then
+  sleep 0.1
+else
+  wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-${arch}.tgz -O ~/ngrok.tgz
+  tar -xvzf ~/ngrok.tgz -C $PREFIX/bin
+  rm ~/ngrok.tgz
+fi
 
 # DESCARGANDO NVCHAD
 #
