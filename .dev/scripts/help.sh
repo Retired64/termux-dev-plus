@@ -9,7 +9,9 @@ dev ${red}<${black}argument${red}> <${black}option${red}>
 ${black}┌┅{ ${red}config ${black}}
 ┃
 └┅➤[ ${white}login ${black}] ${red}┅➤( ${black}set termux login ${red})${black}
-└┅➤[ ${white}banner ${black}] ${red}┅➤( ${black}set termux banner ${red})${black}
+└┅➤[ ${white}banner ${black}] ${red}┅➤( ${black}change default banner ${red})${black}
+└┅➤[ ${white}theme ${black}] ${red}┅➤( ${black}change theme color ${red})${black}
+└┅➤[ ${white}port ${black}] ${red}┅➤( ${black}change default port ${red})${black}
 
 ┌┅{ ${red}new ${black}}
 ┃
@@ -27,4 +29,10 @@ ${black}┌┅{ ${red}config ${black}}
 ┃
 └┅➤[ ${white}tokens ${black}] ${red}┅➤( ${black}show saved tokens ${red})${black}
 └┅➤[ ${white}notes ${black}] ${red}┅➤( ${black}show saved notes ${red})${black}
-└┅➤[ ${white}commands ${black}] ${red}┅➤( ${black}show all commands ${red})${black}"
+└┅➤[ ${white}commands ${black}] ${red}┅➤( ${black}show all commands ${red})${black}
+
+┌┅{ ${red}forward ${black}}
+┃
+└┅➤[ ${white}ngrok ${black}] ${red}┅➤( ${black}start ngrok server ${red})${black}
+└┅➤[ ${white}cloudflared ${black}] ${red}┅➤( ${black}start cloudflared server ${red})${black}
+└┅➤[ ${white}localtunnel ${black}] ${red}┅➤( ${black}start localtunnel server ${red})${black}"
