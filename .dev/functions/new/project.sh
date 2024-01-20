@@ -7,8 +7,8 @@ echo -e -n "${red}
 ${bred} ${white}CHOOSE YOUR FRAMEWORK ${bblack}${red}
 ${white}
 ${bwhite} ${red}1${white} ${red}VITE ${bblack}${white}
-${bwhite} ${red}2${white} ${red}CREATE-REACT-APP ${bblack}${white}
 
+${bwhite} ${red}2${white} ${red}CREATE-REACT-APP ${bblack}${white}
 ${white}
 ${bred} NUMBER ${bblack}${red} "${black}
 read -r framework
