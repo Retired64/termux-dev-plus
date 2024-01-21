@@ -34,7 +34,12 @@ fi
 
 # VERIFICANDO PUERTO SELECCIONADO
 
-port=$(cat ~/.termux-dev/env/ports/port.txt)
+if [[ -f ~/.termux-dev/env/ports/port.txt ]]; then
+  port=$(cat ~/.termux-dev/env/ports/port.txt)
+else
+  port="8080"
+fi
+
 sed -i "s!8080!${port}!g" ~/.termux-dev/env/config.sh
 
 echo -e "${red}
