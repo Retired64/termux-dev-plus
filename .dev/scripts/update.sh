@@ -32,6 +32,11 @@ else
   echo -e "${red}Theme Not Found!"
 fi
 
+# VERIFICANDO PUERTO SELECCIONADO
+
+port=$(cat ~/.termux-dev/env/ports/port.txt)
+sed -i "s!8080!${port}!g" ~/.termux-dev/env/config.sh
+
 echo -e "${red}
 ${bred} ${white} Termux-Dev successfully updated!  ${bblack}${red}
 "${white}

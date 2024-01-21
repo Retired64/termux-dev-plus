@@ -2,6 +2,9 @@
 
 export dev="~/.termux-dev"
 
+# NORMAL VARIABLES 
+export port="8080"
+
 # SYSTEM VARIABLES
 
 export system=$(uname -o)
