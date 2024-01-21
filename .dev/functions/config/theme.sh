@@ -28,7 +28,7 @@ elif [[ "${option}" == "2" ]]; then
   cp ${TermuxDev}/.dev/env/theme/blue.sh ~/.termux-dev/env/config.sh
   echo "cursor=#0000FF" > ~/.termux/colors.properties
   rm ~/.termux-dev/custom/theme/*.txt > /dev/null 2>&1
-  echo "blue" > ~/.termux-dev/custom/blue.txt
+  echo "blue" > ~/.termux-dev/custom/theme/blue.txt
 elif [[ "${option}" == "3" ]]; then
   cp ${TermuxDev}/.dev/env/theme/green.sh ~/.termux-dev/env/config.sh
   echo "cursor=#00FF00" > ~/.termux/colors.properties
