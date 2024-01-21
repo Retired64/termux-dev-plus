@@ -33,12 +33,12 @@ elif [[ "${option}" == "3" ]]; then
   cp ${TermuxDev}/.dev/env/theme/green.sh ~/.termux-dev/env/config.sh
   echo "cursor=#00FF00" > ~/.termux/colors.properties
   rm ~/.termux-dev/custom/theme/*.txt > /dev/null 2>&1
-  echo "green" > ~/.termux-dev/custom/green.txt
+  echo "green" > ~/.termux-dev/custom/theme/green.txt
 elif [[ "${option}" == "4" ]]; then
   cp ${TermuxDev}/.dev/env/theme/cyan.sh ~/.termux-dev/env/config.sh
   echo "cursor=#00FFFF" > ~/.termux/colors.properties
   rm ~/.termux-dev/custom/theme/*.txt > /dev/null 2>&1
-  echo "cyan" > ~/.termux-dev/custom/cyan.txt
+  echo "cyan" > ~/.termux-dev/custom/theme/cyan.txt
 else
   echo -e "${red}Ivalid Number!"${white}
 fi
