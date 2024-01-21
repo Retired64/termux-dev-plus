@@ -43,3 +43,13 @@ else
   echo -e "${red}Ivalid Number!"${white}
 fi
 
+# VERIFICANDO PUERTO SELECCIONADO
+
+if [[ -f ~/.termux-dev/env/ports/port.txt ]]; then
+  port=$(cat ~/.termux-dev/env/ports/port.txt)
+else
+  port="8080"
+fi
+
+sed -i "s!8080!${port}!g" ~/.termux-dev/env/config.sh
+
