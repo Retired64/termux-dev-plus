@@ -49,6 +49,8 @@ elif [[ "${argument}" == "show" ]]; then
     source ${TermuxDev}/.dev/functions/show/notes.sh
   elif [[ "${option}" == "commands" ]]; then
     source ${TermuxDev}/.dev/functions/show/commands.sh
+  elif [[ "${option}" == "port" ]]; then
+    source ${TermuxDev}/.dev/functions/show/port.sh
   else
     option
   fi

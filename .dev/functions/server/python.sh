@@ -3,4 +3,4 @@
 source ~/.termux-dev/env/env.sh
 source ~/.termux-dev/env/config.sh
 
-python3 -m http.server 8080
+python3 -m http.server ${port}
