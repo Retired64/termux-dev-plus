@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Termux-Dev!</h1>
+<h1 align="center">Termux-Dev!</h1>
 <p align="center">Learning Web Development on Android with Termux</p>
 <h2>Preview</h2>
 <p align="center">
