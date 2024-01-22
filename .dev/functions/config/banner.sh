@@ -9,4 +9,5 @@ read -r filePath
 
 cp ${filePath} ~/.termux-dev/custom/custom.txt
 echo "#!/bin/bash
-cat ~/.termux-dev/custom/custom.txt" > ~/.termux-dev/custom/banner.sh
+cat ~/.termux-dev/custom/custom.txt
+echo ''" > ~/.termux-dev/custom/banner.sh

@@ -37,7 +37,7 @@ yes|pkg update && yes|pkg upgrade
 
 # INSTALANDO PAQUETES
 
-yes|pkg install git gh zsh neovim nodejs python php curl wget lua-language-server lsd bat tur-repo proot ncurses-utils ripgrep libtreesitter stylua tmate cloudflared translate-shell
+yes|pkg install git gh zsh neovim nodejs python php curl wget lua-language-server lsd bat tur-repo proot ncurses-utils ripgrep libtreesitter stylua tmate cloudflared translate-shell termimage
 
 # INSTALANDO PAQUETES DE TERMUX USERS REPO (tur)
 
