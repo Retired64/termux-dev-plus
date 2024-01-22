@@ -5,6 +5,7 @@
 <img src="https://github.com/TermuxDev/termux-dev/blob/main/public/logo.jpg">
 </p>
 <h2>Installation</h2>
+
 Update termux repositories.
 
 ```bash
@@ -37,3 +38,9 @@ bash next.sh
 ```
 
 > Restart your Termux application to view the changes.
+
+<h2>New command (dev)</h2>
+<p align="center">
+<img src="https://github.com/TermuxDev/termux-dev/blob/main/public/dev-command.jpg">
+</p>
+
