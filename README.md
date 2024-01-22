@@ -58,6 +58,22 @@ dev config theme
 <img src="https://github.com/TermuxDev/termux-dev/blob/main/public/logo-cyan.jpg">
 </p>
 
+<h2>Argument (new)</h2>
+
+> You can create projects or save tokens and notes using the "new" argument with its respective options:
+
+```bash
+dev new token
+```
+
+```bash
+dev new note
+```
+
+```bash
+dev new project
+```
+
 <h2>New code editor (nvim)</h2>
 <p align="center">
 <img src="https://github.com/TermuxDev/termux-dev/blob/main/public/nvim-alt-h.jpg">
