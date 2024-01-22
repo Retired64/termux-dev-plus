@@ -60,17 +60,17 @@ This command allows you to save a note.
 <img src="https://github.com/TermuxDev/termux-dev/blob/main/public/nvim-ctrl-n.jpg">
 </p>
 
-<h2>Syntaxes Nvim</h2>
+<h2>Syntax nvim</h2>
 
-> It is advisable to install the syntaxes of the languages to be used, for example:
+> It is advisable to install the syntax of the languages to be used, for example:
 
 ```bash
 :TSInstall python bash
 ```
 
-<h2>MasonInstall Nvim</h2>
+<h2>MasonInstall nvim</h2>
 
-> You can install packages inside "vim" using its "Mason" package installer, for example:
+> You can install packages inside "nvim" using its "Mason" package installer, for example:
 
 ```bash
 :MasonInstall tailwindcss-language-server eslint-lsp
