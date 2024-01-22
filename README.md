@@ -53,6 +53,14 @@ dev new note
 ```
 This command allows you to save a note.
 
+<h2>New code editor (nvim)</h2>
+<p align="center">
+<img src="https://github.com/TermuxDev/termux-dev/blob/main/public/nvim-alt-h.jpg">
+<img src="https://github.com/TermuxDev/termux-dev/blob/main/public/nvim-alt-i.jpg">
+<img src="https://github.com/TermuxDev/termux-dev/blob/main/public/nvim-ctrl-n.jpg">
+</p>
+
+
 <h2>Follow me</h2>
 
 > If you want more information about Termux-Dev, we invite you to view the content on our social networks.
