@@ -76,6 +76,22 @@ This command allows you to save a note.
 :MasonInstall tailwindcss-language-server eslint-lsp
 ```
 
+<h2>Update Termux-Dev!</h2>
+
+You can update Termux-Dev, by running the command:
+
+```bash
+termux-dev-update
+```
+
+<h2>Restart Termux-Dev!</h2>
+
+You can reset the Termux-Dev style by running the command:
+
+```bash
+termux-dev-restart
+```
+
 <h2>Follow me</h2>
 
 > If you want more information about Termux-Dev, we invite you to view the content on our social networks.
