@@ -2,7 +2,7 @@
 <p align="center">A project focused on providing a development environment from our Termux terminal using Android.</p>
 <h2>Preview</h2>
 <p align="center">
-<img src="https://github.com/TermuxDev/TermuxDev/blob/main/img/cover.jpg">
+<img src="https://github.com/TermuxDev/termux-dev/blob/main/public/logo.jpg">
 </p>
 <h2>Installation</h2>
 Update termux repositories.
