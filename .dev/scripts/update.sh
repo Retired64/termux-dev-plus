@@ -9,6 +9,19 @@ cd ${TermuxDev}
 
 git pull origin main
 
+# VERIFICANDO BANNER PERSONALIZADO 
+
+if [[ -f ~/.termux-dev/custom/custom.txt ]]; then
+  cp ~/.termux-dev/custom/banner.sh ~/.termux-dev/custom/backup.sh
+  cp ${TermuxDev}/.dev/bin/* $PREFIX/bin
+  cp ${TermuxDev}/.dev/env/config.sh ~/.termux-dev/env/config.sh
+  cp -r ${TermuxDev}/.dev/custom ~/.termux-dev
+  cp -r ${TermuxDev}/.dev/custom/.termux ~
+  mv ~/.termux-dev/custom/backup.sh ~/.termux-dev/custom/banner.sh
+fi
+
+# ACTUALIZANDO BANNER TERMUX-DEV 
+
 cp ${TermuxDev}/.dev/bin/* $PREFIX/bin
 cp ${TermuxDev}/.dev/env/config.sh ~/.termux-dev/env/config.sh
 cp -r ${TermuxDev}/.dev/custom ~/.termux-dev
