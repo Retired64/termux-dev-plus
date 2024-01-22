@@ -60,7 +60,7 @@ dev config theme
 
 <h2>Argument (new)</h2>
 
-> You can create projects or save tokens and notes using the "new" argument with its respective options:
+> You can create projects or save tokens and notes using the (new) argument with its respective options:
 
 ```bash
 dev new token
@@ -72,6 +72,74 @@ dev new note
 
 ```bash
 dev new project
+```
+
+<h2>Argument (server)</h2>
+
+> You can start a local server on the default port (8080) using the (server) argument with its respective options:
+
+```bash
+dev server node
+```
+
+```bash
+dev server php
+```
+
+```bash
+dev server python
+```
+
+<h2>Argument (forward)</h2>
+
+> You can expose your local server to the world by using a port forward with the argument (forward) and its respective options.
+
+```bash
+dev forward ngrok
+```
+
+```bash
+dev forward cloudflared
+```
+
+```bash
+dev forward localtunnel
+```
+
+<h2>Argument (config)</h2>
+
+> You can change the default theme, banner and port, using the (config) argument with their respective options:
+
+```bash
+dev config theme
+```
+
+```bash
+dev config banner
+```
+
+```bash
+dev config port
+```
+
+<h2>Argument (show)</h2>
+
+> You can view and list saved commands, tokens, notes, and ports using the (show) argument with their respective options:
+
+```bash
+dev show tokens
+```
+
+```bash
+dev show notes
+```
+
+```bash
+dev show commands
+```
+
+```bash
+dev show port
 ```
 
 <h2>New code editor (nvim)</h2>
