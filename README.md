@@ -9,24 +9,30 @@
 ```bash
 yes|pkg update && yes|pkg upgrade
 ```
+
 <p>Grant storage permissions.</p>
 ```bash
 termux-setup-storage
 ```
+
 <p>Install the git package.</p>
 ```bash
 yes|pkg install git
 ```
+
 <p>Clone the repository.</p>
 ```bash
 git clone https://github.com/TermuxDev/termux-dev.git
 ```
+
 <p>Run the installer.</p>
 ```bash
 cd termux-dev && bash install.sh
 ```
+
 <p>Continue with the installation.</p>
 ```bash
 bash next.sh
 ```
+
 > Restart your Termux application to view the changes.
