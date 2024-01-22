@@ -44,14 +44,19 @@ bash next.sh
 <img src="https://github.com/TermuxDev/termux-dev/blob/main/public/dev-command.jpg">
 </p>
 
-> The "dev" command enables new features in your Termux.
+<h2>Termux-Dev Themes</h2>
 
-For example:
+> You can change the default Termux-Dev theme using the command:
 
 ```bash
-dev new note
+dev config theme
 ```
-This command allows you to save a note.
+
+<p align="center">
+<img src="https://github.com/TermuxDev/termux-dev/blob/main/public/logo-blue.jpg">
+<img src="https://github.com/TermuxDev/termux-dev/blob/main/public/logo-green.jpg">
+<img src="https://github.com/TermuxDev/termux-dev/blob/main/public/logo-cyan.jpg">
+</p>
 
 <h2>New code editor (nvim)</h2>
 <p align="center">
