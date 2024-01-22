@@ -1,5 +1,5 @@
 <h1 align="center">Termux-Dev!</h1>
-<p align="center">Learning Web Development on Android with Termux</p>
+<p align="center">A project focused on providing a development environment from our Termux terminal using Android.</p>
 <h2>Preview</h2>
 <p align="center">
 <img src="https://github.com/TermuxDev/TermuxDev/blob/main/img/cover.jpg">
