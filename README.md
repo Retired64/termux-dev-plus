@@ -186,9 +186,9 @@ termux-dev-restart
 > If you want more information about Termux-Dev, we invite you to view the content on our social networks.
 
 <p align="left">
-  <a href="https://youtube.com/@TermuxDev00"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-%23c4302b"></a>
-  <a href="https://tiktok.com/@termuxdev00"><img alt="TikTok" src="https://img.shields.io/badge/TikTok-black"></a>
-  <a href="https://t.me/termuxdev00"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-%23229ED9"></a>
-  <a href="https://www.facebook.com/termuxdev00"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-%233b5998"></a>
+  <a href="https://youtube.com/@TermuxxDev"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-%23c4302b"></a>
+  <a href="https://tiktok.com/@termuxxdev"><img alt="TikTok" src="https://img.shields.io/badge/TikTok-black"></a>
+  <a href="https://t.me/termuxxdev"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-%23229ED9"></a>
+  <a href="https://www.facebook.com/termuxxdev"><img alt="Facebook" src="https://img.shields.io/badge/Facebook-%233b5998"></a>
 </p>
 
