@@ -5,6 +5,8 @@ source ~/.termux-dev/env/config.sh
 
 yes|pkg update && yes|pkg upgrade
 
+yes|pkg install git gh zsh neovim nodejs python php curl wget lua-language-server lsd bat tur-repo proot ncurses-utils ripgrep libtreesitter stylua tmate cloudflared translate-shell termimage html2text
+
 cd ${TermuxDev}
 
 git pull origin main
