@@ -10,8 +10,8 @@ function option() {
   echo -e ${red}"Invalid option!"${white}
 }
 
-if [[ "${argument}" == "update" ]]; then
-  source ${TermuxDev}/.dev/scripts/update.sh
+if [[ "${argument}" == "help" ]]; then
+  source ${TermuxDev}/.dev/scripts/help.sh
 elif [[ "${argument}" == "config" ]]; then
   if [[ "${option}" == "theme" ]]; then
     source ${TermuxDev}/.dev/functions/config/theme.sh
