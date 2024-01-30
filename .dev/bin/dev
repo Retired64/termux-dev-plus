@@ -72,6 +72,12 @@ elif [[ "${argument}" == "init" ]]; then
   else
     option
   fi
+elif [[ "${argument}" == "deploy" ]]; then
+  if [[ "${option}" == "github" ]]; then
+    source ${TermuxDev}/.dev/functions/deploy/github.sh
+  else
+    option
+  fi
 else
   source ${TermuxDev}/.dev/scripts/help.sh
 fi

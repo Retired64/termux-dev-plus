@@ -40,4 +40,8 @@ ${black}┌┅{ ${red}config ${black}}
 ┌┅{ ${red}init ${black}}
 ┃
 └┅➤[ ${white}react ${black}] ${red}┅➤( ${black}init a setup for frontend ${red})${black}
-└┅➤[ ${white}express ${black}] ${red}┅➤( ${black}init a setup for backend ${red})${black}"
+└┅➤[ ${white}express ${black}] ${red}┅➤( ${black}init a setup for backend ${red})${black}
+
+┌┅{ ${red}deploy ${black}}
+┃
+└┅➤[ ${white}github ${black}] ${red}┅➤( ${black}deploy files to github ${red})${black}"
