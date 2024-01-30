@@ -35,4 +35,9 @@ ${black}┌┅{ ${red}config ${black}}
 ┃
 └┅➤[ ${white}ngrok ${black}] ${red}┅➤( ${black}start ngrok server ${red})${black}
 └┅➤[ ${white}cloudflared ${black}] ${red}┅➤( ${black}start cloudflared server ${red})${black}
-└┅➤[ ${white}localtunnel ${black}] ${red}┅➤( ${black}start localtunnel server ${red})${black}"
+└┅➤[ ${white}localtunnel ${black}] ${red}┅➤( ${black}start localtunnel server ${red})${black}
+
+┌┅{ ${red}init ${black}}
+┃
+└┅➤[ ${white}react ${black}] ${red}┅➤( ${black}init a setup for frontend ${red})${black}
+└┅➤[ ${white}express ${black}] ${red}┅➤( ${black}init a setup for backend ${red})${black}"

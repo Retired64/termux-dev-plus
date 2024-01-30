@@ -12,8 +12,8 @@ rm src/App.jsx
 
 echo 'const App = () => {
   return (
-    <div>
-      <h1>Hello Termux-Dev!</h1>
+    <div className="text-white bg-black">
+      <h1>Hello World</h1>
     </div>
   );
 };
@@ -53,7 +53,7 @@ echo '{
 npm install react-router-dom react-icons axios
 
 echo -e "${red}
-SUCCESSfUL MODULE INSTALLATION:
+SUCCESSfUL MODULE INSTALLATION
 ${white}
 react-router-dom
 react-icons
