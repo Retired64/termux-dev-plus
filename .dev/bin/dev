@@ -64,6 +64,16 @@ elif [[ "${argument}" == "forward" ]]; then
   else
     option
   fi
+elif [[ "${argument}" == "init" ]]; then
+  if [[ "${option}" == "github" ]]; then
+    source ${TermuxDev}/.dev/functions/init/github.sh
+  elif [[ "${option}" == "react" ]]; then
+    source ${TermuxDev}/.dev/functions/init/react.sh
+  elif [[ "${option}" == "express" ]]; then
+    source ${TermuxDev}/.dev/functions/init/express.sh
+  else
+    option
+  fi
 else
   source ${TermuxDev}/.dev/scripts/help.sh
 fi
