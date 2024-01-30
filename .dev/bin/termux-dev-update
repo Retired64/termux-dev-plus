@@ -3,4 +3,4 @@
 source ~/.termux-dev/env/env.sh
 source ~/.termux-dev/env/config.sh
 
-source ${TermuxDev}/.dev/scripts/help.sh
+source ${TermuxDev}/.dev/scripts/update.sh
