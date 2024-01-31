@@ -163,7 +163,10 @@ dev deploy github
 ```
 
 <h2>New code editor (NvChad)</h2>
+
 <a href="https://nvchad.com">NvChad Docs</a>
+
+> Read the official NvChad documentation to take advantage of all its features.
 
 <p align="center">
 <img src="https://github.com/TermuxDev/termux-dev/blob/main/public/nvim-alt-h.jpg">
