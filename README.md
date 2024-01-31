@@ -167,7 +167,7 @@ dev show port
 
 <h2>Update Termux-Dev!</h2>
 
-You can update Termux-Dev, by running the command:
+> You can update Termux-Dev, by running the command:
 
 ```bash
 termux-dev-update
@@ -175,7 +175,7 @@ termux-dev-update
 
 <h2>Restart Termux-Dev!</h2>
 
-You can reset the Termux-Dev style by running the command:
+> You can reset the Termux-Dev style by running the command:
 
 ```bash
 termux-dev-restart
