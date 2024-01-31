@@ -142,7 +142,28 @@ dev show commands
 dev show port
 ```
 
-<h2>New code editor (nvim)</h2>
+<h2>Argument (init)</h2>
+
+> You can start a frontend or backend project setup installation, using the (init) argument with its respective options:
+
+```bash
+dev init react
+```
+
+```bash
+dev init express
+```
+
+<h2>Argument (deploy)</h2>
+
+> You can deploy and upload your files to different platforms, using the (deploy) argument with its respective options:
+
+```bash
+dev deploy github
+```
+
+<h2>New code editor (NvChad)</h2>
+<a href="https://nvchad.com">NvChad Docs</a>
 <p align="center">
 <img src="https://github.com/TermuxDev/termux-dev/blob/main/public/nvim-alt-h.jpg">
 <img src="https://github.com/TermuxDev/termux-dev/blob/main/public/nvim-alt-i.jpg">
