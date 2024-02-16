@@ -11,6 +11,10 @@ cd ${TermuxDev}
 
 git pull origin main
 
+# GUARDANDO TECLADO EXTRA DEL USUARIO 
+
+cp ~/.termux/termux.properties ~/.extra-keys
+
 # VERIFICANDO BANNER PERSONALIZADO 
 
 if [[ -f ~/.termux-dev/custom/custom.txt ]]; then
@@ -55,6 +59,10 @@ else
 fi
 
 sed -i "s!8080!${port}!g" ~/.termux-dev/env/config.sh
+
+# AÑADIENDO TECLAS GUARDADAS 
+
+mv ~/.extra-keys ~/.termux/termux.properties
 
 echo -e "${red}
 ${bred} ${white} Termux-Dev successfully updated!  ${bblack}${red}

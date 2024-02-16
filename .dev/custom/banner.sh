@@ -7,7 +7,7 @@ clear
 cat ~/.termux-dev/custom/termux-dev.txt
 echo -e "         ${white}${bwhite}${black}    WELCOME TO TERMUX-DEV!   ${bblack}${white}
 
-              ${red}${bred}${white}  TERMUX-DEV 1.2.2  ${bblack}${red}
+              ${red}${bred}${white}  TERMUX-DEV 1.2.3  ${bblack}${red}
 
                     ${white}${bwhite}${black}  </>  ${bblack}${white}
 "

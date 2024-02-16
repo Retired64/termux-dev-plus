@@ -5,3 +5,5 @@ source ~/.termux-dev/env/config.sh
 
 cp -r ${TermuxDev}/.dev/custom ~/.termux-dev
 rm ~/.termux-dev/custom/custom.txt > /dev/null 2>&1
+
+cp ${TermuxDev}/.dev/custom/.termux/termux.properties ~/.termux/termux.properties
