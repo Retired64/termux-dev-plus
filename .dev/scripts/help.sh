@@ -44,4 +44,5 @@ ${black}┌┅{ ${red}config ${black}}
 
 ┌┅{ ${red}deploy ${black}}
 ┃
-└┅➤[ ${white}github ${black}] ${red}┅➤( ${black}deploy files to github ${red})${black}"
+└┅➤[ ${white}github ${black}] ${red}┅➤( ${black}deploy files to github ${red})${black}
+└┅➤[ ${white}vercel ${black}] ${red}┅➤( ${black}deploy your project in vercel ${red})${black}"

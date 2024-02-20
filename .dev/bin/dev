@@ -75,6 +75,8 @@ elif [[ "${argument}" == "init" ]]; then
 elif [[ "${argument}" == "deploy" ]]; then
   if [[ "${option}" == "github" ]]; then
     source ${TermuxDev}/.dev/functions/deploy/github.sh
+  elif [[ "${option}" == "vercel" ]]; then
+    source ${TermuxDev}/.dev/functions/deploy/vercel.sh
   else
     option
   fi

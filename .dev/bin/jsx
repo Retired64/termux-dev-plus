@@ -2,3 +2,4 @@
 
 prettier --write *.jsx
 
+if [[ -d ./src/ ]]; then

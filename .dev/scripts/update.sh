@@ -7,6 +7,16 @@ yes|pkg update && yes|pkg upgrade
 
 yes|pkg install git gh zsh neovim nodejs python php curl wget lua-language-server lsd bat tur-repo proot ncurses-utils ripgrep libtreesitter stylua tmate cloudflared translate-shell termimage html2text jq
 
+# INSTALANDO PAQUETES DE TUR-REPO 
+
+yes|pkg install mongodb
+
+# INSTALANDO MODULOS DE NPM 
+
+npm install -g vercel
+
+# DESCARGANDO NUEVOS ARCHIVOS 
+
 cd ${TermuxDev}
 
 git pull origin main

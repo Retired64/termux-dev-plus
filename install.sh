@@ -45,7 +45,7 @@ yes|pkg install mongodb
 
 # INSTALANDO MÓDULOS DE NPM
 
-npm install -g live-server localtunnel prettier
+npm install -g live-server localtunnel prettier vercel
 
 # SOLUCIONANDO ERROR DE (lt) OPENURL.JS
 
