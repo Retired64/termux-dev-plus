@@ -1,5 +1,25 @@
 #!/bin/bash
 
 prettier --write *.jsx
+prettier --write *.js
 
-if [[ -d ./src/ ]]; then
+if [[ -d ./pages ]]; then
+  cd ./pages
+  prettier --write *.jsx
+  prettier --write *.js
+  cd ../
+fi
+
+if [[ -d ./components ]]; then
+  cd ./components
+  prettier --write *.jsx
+  prettier --write *.js
+  cd ../
+fi
+
+if [[ -d ./app ]]; then
+  cd ./app
+  prettier --write *.jsx
+  prettier --write *.js
+  cd ../
+fi
