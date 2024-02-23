@@ -13,7 +13,11 @@ yes|pkg install mongodb
 
 # INSTALANDO MODULOS DE NPM 
 
-npm install -g vercel
+checkVercel=$(command -v vercel)
+
+if [[ "${checkVercel}" == "" ]]; then
+  npm install -g vercel
+fi
 
 # DESCARGANDO NUEVOS ARCHIVOS 
 
