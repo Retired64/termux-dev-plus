@@ -81,7 +81,7 @@ fi
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
 
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
+git clone https://github.com/NvChad/starter ~/.config/nvim
 
 # INSTALANDO OH-MY-ZSH
 
